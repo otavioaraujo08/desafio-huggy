@@ -42,6 +42,10 @@
     font-weight: 500;
     line-height: 0.5rem;
     color: #2934a5;
+
+    @media (max-width: 600px) {
+        font-size: 1.5rem;
+    }
 }
 
 .subtitle {
@@ -50,6 +54,10 @@
     font-weight: 400;
     line-height: 1.75rem;
     color: #46464a;
+
+    @media (max-width: 600px) {
+        font-size: 0.9rem;
+    }
 }
 
 .button {
@@ -64,5 +72,17 @@
     line-height: 1rem;
     letter-spacing: 1px;
     color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #1e2d7a;
+        transition: 0.3s ease-in-out;
+    }
+
+    @media (max-width: 600px) {
+        width: 50%;
+        max-width: 14rem;
+        font-size: 0.7rem;
+    }
 }
 </style>
