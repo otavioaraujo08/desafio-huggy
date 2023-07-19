@@ -1,5 +1,8 @@
 <template>
-    <div class="pageStyles">
+    <div v-if="userWantLogin" class="pageStyles">
+        <Form />
+    </div>
+    <div v-else class="pageStyles">
         <div class="titleBox">
             <h2 class="title">Área de Login</h2>
             <p class="subtitle">
@@ -7,11 +10,30 @@
             </p>
         </div>
 
-        <button class="button">Fazer login com a Huggy</button>
+        <button @click="toggleUserOption" class="button">
+            Fazer login com a Huggy
+        </button>
     </div>
 </template>
 
-<script></script>
+<script>
+import { ref } from 'vue';
+
+export default {
+    setup() {
+        const userWantLogin = ref(false);
+
+        function toggleUserOption() {
+            userWantLogin.value = !userWantLogin.value;
+        }
+
+        return {
+            userWantLogin,
+            toggleUserOption,
+        };
+    },
+};
+</script>
 
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
