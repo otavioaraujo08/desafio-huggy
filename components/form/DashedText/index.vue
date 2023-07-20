@@ -22,6 +22,10 @@ export default {
     font-size: 1.1rem;
     text-align: center;
     padding: 0.65rem;
+
+    @media (max-width: 600px) {
+        font-size: 1rem;
+    }
 }
 
 .continuousLine::before,
@@ -32,6 +36,14 @@ export default {
     border-bottom: 1px solid #c4c4c4;
     position: absolute;
     top: 50%;
+
+    @media (max-width: 600px) {
+        min-width: 7rem;
+    }
+
+    @media (max-width: 330px) {
+        min-width: 4rem;
+    }
 }
 
 .continuousLine::before {
