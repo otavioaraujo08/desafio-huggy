@@ -35,7 +35,8 @@
     align-items: center;
     padding-top: 2rem;
     gap: 1rem;
-    width: 28rem;
+    width: 90%;
+    max-width: 28rem;
     height: 36rem;
     background: #ffffff;
     border-radius: 1rem;
@@ -58,6 +59,10 @@
     font-family: 'Raleway', sans-serif;
     text-align: left;
     color: #333333;
+
+    @media (max-width: 600px) {
+        font-size: 1.5rem;
+    }
 }
 
 .input {
@@ -82,6 +87,10 @@
     font-size: 1rem;
     letter-spacing: 0.1px;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+        font-size: 0.8rem;
+    }
 }
 
 .registerText {
@@ -90,6 +99,10 @@
     font-family: 'IBM Plex Sans', sans-serif;
     color: #262525;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+        font-size: 0.7rem;
+    }
 }
 
 .lgpdBox {
@@ -107,6 +120,10 @@
     font-family: 'IBM Plex Sans', sans-serif;
     color: #909090;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+        font-size: 0.7rem;
+    }
 
     &:last-child {
         &::after {
