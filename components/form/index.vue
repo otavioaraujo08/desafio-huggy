@@ -12,13 +12,13 @@
 
         <FormGroupButton />
 
-        <p>ou</p>
+        <p class="registerText">Cadastrar</p>
 
         <tr />
 
-        <div>
-            <p>Termos e privacidade</p>
-            <p>Português (Brasil)</p>
+        <div class="lgpdBox">
+            <span class="lgpdText">Termos e privacidade</span>
+            <span class="lgpdText">Português (Brasil)</span>
         </div>
     </div>
 </template>
@@ -36,7 +36,7 @@
     padding-top: 2rem;
     gap: 1rem;
     width: 28rem;
-    height: 34rem;
+    height: 36rem;
     background: #ffffff;
     border-radius: 1rem;
     border: 1px solid #e5e5e5;
@@ -81,5 +81,39 @@
     color: #ffffff;
     font-size: 1rem;
     letter-spacing: 0.1px;
+}
+
+.registerText {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #262525;
+    cursor: pointer;
+}
+
+.lgpdBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-top: 1.6rem;
+}
+
+.lgpdText {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #909090;
+    cursor: pointer;
+
+    &:last-child {
+        &::after {
+            content: '▼';
+            margin-left: 0.2rem;
+            color: #4e4d4d;
+            font-size: 0.6rem;
+        }
+    }
 }
 </style>
