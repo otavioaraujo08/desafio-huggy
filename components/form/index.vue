@@ -81,6 +81,7 @@
     color: #ffffff;
     font-size: 1rem;
     letter-spacing: 0.1px;
+    cursor: pointer;
 }
 
 .registerText {

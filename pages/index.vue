@@ -50,12 +50,8 @@ export default {
 }
 
 .titleBox {
-    width: auto;
-    min-width: 20.8rem;
+    width: 90%;
     height: 4.75rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.7rem;
 }
 
 .title {
@@ -64,6 +60,7 @@ export default {
     font-weight: 500;
     line-height: 0.5rem;
     color: #2934a5;
+    margin-bottom: 1.7rem;
 
     @media (max-width: 600px) {
         font-size: 1.5rem;
