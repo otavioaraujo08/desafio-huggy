@@ -44,6 +44,7 @@ export default {
     color: #000000;
     font-size: 1rem;
     letter-spacing: 0.1px;
+    cursor: pointer;
 }
 
 .icon {
