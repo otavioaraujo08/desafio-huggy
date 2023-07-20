@@ -1,11 +1,21 @@
 <template>
-    <div class="form">
+    <div :class="{ form: true, error: emailError }">
         <div class="formHeader">
             <h1 class="title">Login</h1>
 
-            <input type="email" placeholder="E-mail ou usuário" class="input" />
+            <input
+                type="email"
+                v-model="email"
+                placeholder="E-mail ou usuário"
+                class="input"
+                :class="{ inputError: emailError }"
+            />
 
-            <button class="button">Continuar</button>
+            <span class="helperText" v-if="emailError">{{ emailError }}</span>
+
+            <button class="button" @click="validateAndRedirect">
+                Continuar
+            </button>
         </div>
 
         <FormDashedText text="Ou" />
@@ -23,7 +33,38 @@
     </div>
 </template>
 
-<script></script>
+<script lang="js" setup>
+import { useRouter } from 'vue-router';
+import { ref } from 'vue';
+
+const router = useRouter();
+const email = ref('');
+let emailError = '';
+
+const validateEmail = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    switch (true) {
+        case !email.value:
+            emailError = 'O email é obrigatório.';
+            break;
+        case !emailRegex.test(email.value):
+            emailError = 'O email deve ser válido.';
+            break;
+        default:
+            emailError = '';
+            break;
+    }
+};
+
+const validateAndRedirect = () => {
+    validateEmail();
+
+    if (!emailError) {
+        router.push('/home');
+    }
+};
+</script>
 
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
@@ -74,6 +115,25 @@
     border: none;
     border-radius: 3px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.inputError {
+    border: 2px solid #fa0000d7;
+}
+.helperText {
+    color: #fa0000d7;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    max-height: 1rem;
+
+    @media (max-width: 600px) {
+        font-size: 0.8rem;
+    }
+}
+
+.form.error {
+    gap: 0.5rem;
 }
 
 .button {
