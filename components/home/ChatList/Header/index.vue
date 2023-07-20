@@ -25,14 +25,26 @@
 .headerBox {
     width: 95%;
     border-bottom: 1px solid #e8e8eb;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 }
 
 .headerTitle {
     margin-left: 1rem;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #2934a5;
     line-height: 2.25rem;
     font-family: 'IBM Plex Sans', sans-serif;
+
+    @media (max-width: 660px) {
+        font-size: 1.25rem;
+    }
+
+    @media (max-width: 430px) {
+        font-size: 0.8rem;
+    }
 }
 </style>
