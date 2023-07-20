@@ -8,7 +8,7 @@
             <button class="button">Continuar</button>
         </div>
 
-        <p>ou</p>
+        <FormDashedText text="Ou" />
 
         <FormGroupButton />
 
