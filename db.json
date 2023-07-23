@@ -1,0 +1,64 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Agostinha Carrara",
+            "profilePicture": "https://s2-gshow.glbimg.com/19J9NXPOE9EvzcwcsxwUs_0uT4g=/0x0:1440x800/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2017/n/B/bEDK6CRByxaLqqPA3kog/20091021-a-grande-familia-ac-006-abre.jpg",
+            "lastMessage": "199,99",
+            "messages": [
+                {
+                    "userId": 1,
+                    "message": "Oi, tudo bem?",
+                    "date": "2020-10-10T15:00:00.000Z",
+                    "isMine": true
+                },
+                {
+                    "userId": 2,
+                    "message": "Tudo sim, e você?",
+                    "date": "2020-10-10T15:00:00.000Z",
+                    "isMine": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Agostinha Carrara",
+            "profilePicture": "https://s2-gshow.glbimg.com/19J9NXPOE9EvzcwcsxwUs_0uT4g=/0x0:1440x800/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2017/n/B/bEDK6CRByxaLqqPA3kog/20091021-a-grande-familia-ac-006-abre.jpg",
+            "lastMessage": "199,99",
+            "messages": [
+                {
+                    "userId": 1,
+                    "message": "Oi, tudo bem?",
+                    "date": "2020-10-10T15:00:00.000Z",
+                    "isMine": true
+                },
+                {
+                    "userId": 2,
+                    "message": "Tudo sim, e você?",
+                    "date": "2020-10-10T15:00:00.000Z",
+                    "isMine": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Agostinha Carrara",
+            "profilePicture": "https://s2-gshow.glbimg.com/19J9NXPOE9EvzcwcsxwUs_0uT4g=/0x0:1440x800/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2017/n/B/bEDK6CRByxaLqqPA3kog/20091021-a-grande-familia-ac-006-abre.jpg",
+            "lastMessage": "199,99",
+            "messages": [
+                {
+                    "userId": 1,
+                    "message": "Oi, tudo bem?",
+                    "date": "2020-10-10T15:00:00.000Z",
+                    "isMine": true
+                },
+                {
+                    "userId": 2,
+                    "message": "Tudo sim, e você?",
+                    "date": "2020-10-10T15:00:00.000Z",
+                    "isMine": false
+                }
+            ]
+        }
+    ]
+}
