@@ -19,65 +19,51 @@
             "lastMessage": ""
         }
     ],
-    "history": [
+    "userIdOne": [
         {
             "id": 1,
-            "userId": 1,
-            "messages": [
-                {
-                    "id": 1,
-                    "message": "Uma média? Hum... uns 200 reais.",
-                    "date": "08:55",
-                    "isMine": false
-                },
-                {
-                    "id": 2,
-                    "message": "200 reais? Tá louco? Isso é um assalto!",
-                    "date": "08:55",
-                    "isMine": true
-                },
-                {
-                    "id": 3,
-                    "message": "Calma, calma. Não precisa se exaltar.",
-                    "date": "08:55",
-                    "isMine": false
-                },
-                {
-                    "id": 4,
-                    "message": "Eu faço um desconto especial para você.",
-                    "date": "08:55",
-                    "isMine": false
-                },
-                {
-                    "id": 5,
-                    "message": "Quanto?",
-                    "date": "08:55",
-                    "isMine": true
-                },
-                {
-                    "id": 6,
-                    "message": "199,99",
-                    "date": "08:55",
-                    "isMine": false
-                }
-            ]
+            "message": "Uma média? Hum... uns 200 reais.",
+            "date": "08:55",
+            "isMine": false
         },
         {
             "id": 2,
-            "userId": 2,
-            "messages": [
-                {
-                    "id": 1,
-                    "message": "precisamos ver dos fiado, tem mais de 20 pastel",
-                    "date": "08:55",
-                    "isMine": false
-                }
-            ]
+            "message": "200 reais? Tá louco? Isso é um assalto!",
+            "date": "08:55",
+            "isMine": true
         },
         {
             "id": 3,
-            "userId": 3,
-            "messages": []
+            "message": "Calma, calma. Não precisa se exaltar.",
+            "date": "08:55",
+            "isMine": false
+        },
+        {
+            "id": 4,
+            "message": "Eu faço um desconto especial para você.",
+            "date": "08:55",
+            "isMine": false
+        },
+        {
+            "id": 5,
+            "message": "Quanto?",
+            "date": "08:55",
+            "isMine": true
+        },
+        {
+            "id": 6,
+            "message": "199,99",
+            "date": "08:55",
+            "isMine": false
         }
-    ]
+    ],
+    "userIdTwo": [
+        {
+            "id": 1,
+            "message": "precisamos ver dos fiado, tem mais de 20 pastel",
+            "date": "08:55",
+            "isMine": false
+        }
+    ],
+    "userIdThree": []
 }
