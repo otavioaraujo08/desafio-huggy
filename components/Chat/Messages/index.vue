@@ -63,6 +63,12 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
+
+    @media (max-width: 768px) {
+        min-width: 50%;
+        height: auto;
+        font-size: 0.8rem;
+    }
 }
 
 .mineMessage {
@@ -84,7 +90,11 @@ export default {
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 1.35rem */
+    line-height: 180%;
+
+    @media (max-width: 768px) {
+        font-size: 0.6rem;
+    }
 }
 
 .sendFirstMessage {
