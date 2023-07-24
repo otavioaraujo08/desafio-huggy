@@ -5,7 +5,6 @@
         "build": "nuxt build",
         "dev": "nuxt dev",
         "json-server": "json-server --watch db.json --port 3001",
-        "server": "npm run dev && npm run json-server",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare"
@@ -19,6 +18,7 @@
         "prettier": "3.0.0"
     },
     "dependencies": {
+        "axios": "^1.4.0",
         "sass": "^1.63.6"
     }
 }
