@@ -1,10 +1,20 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Desafio-Huggy
 
-## Setup
+- Desafio para a vaga de Front-End utilizando Vue Js. 🌳
 
-Make sure to install the dependencies:
+
+## Desafio
+
+- Listagem dos atendimentos, com foto e nome e última mensagem trocada ✔️
+- Listagem de mensagens mensagens trocadas durante a conversa; ✔️
+- Exibir as informações do contato: nome e foto; ✔️
+- Envio de uma nova mensagem; ✔️
+- Funcional em diversos layouts ✔️
+
+## Instalação
+
+1. Passo - Instale desafio-huggy com o instalador de pacotes de sua preferência
 
 ```bash
 # npm
@@ -17,9 +27,9 @@ pnpm install
 yarn install
 ```
 
-## Development Server
+## Execução
 
-Start the development server on `http://localhost:3000`:
+2. Passo - Inicie o servidor pela url `http://localhost:3000`:
 
 ```bash
 # npm
@@ -32,32 +42,29 @@ pnpm run dev
 yarn dev
 ```
 
-## Production
+## Rodando o NoSQL (*Importante*)
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
+3. Passo - Para ver informações de chat e enviar mensagens, execute o comando abaixo
 
 ```bash
 # npm
-npm run preview
+npm run json-server
 
 # pnpm
-pnpm run preview
+pnpm run json-server
 
 # yarn
-yarn preview
+yarn json-server
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Link para teste
+
+- É necessário rodar o passo anterior (3° Passo) para acessar as informações de chat
+- https://huggy-challenger.netlify.app
+
+## Funcionalidades
+
+- Temas dark e light
+- Preview em tempo real
+- Modo tela cheia
+- Multiplataforma
