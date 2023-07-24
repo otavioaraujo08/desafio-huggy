@@ -7,13 +7,19 @@
 
         <div class="itemInfos">
             <strong class="itemName">{{ user?.name }}</strong>
-            <storng class="itemLastMessage">{{ user?.lastMessage }}</storng>
+            <strong class="itemLastMessage">{{ user?.lastMessage }}</strong>
         </div>
     </div>
 </template>
 
 <script>
 export default {
+    data() {
+        return {
+            isSelected: false,
+        };
+    },
+
     props: {
         user: {
             type: Object,
