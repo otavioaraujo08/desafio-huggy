@@ -9,7 +9,7 @@
                         v-for="user in userList"
                         :key="user.id"
                         :user="user"
-                        v-on:click="selectUser(user.id)"
+                        @click="selectUser(user.id)"
                         :class="[
                             'chatListItem',
                             { selectedItem: user.id === selectedUserId },
