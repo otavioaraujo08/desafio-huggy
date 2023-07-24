@@ -1,22 +1,24 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^18.16.19",
-    "json-server": "^0.17.3",
-    "nuxt": "^3.6.3",
-    "nuxt-icon": "^0.4.2",
-    "prettier": "3.0.0"
-  },
-  "dependencies": {
-    "sass": "^1.63.6"
-  }
+    "name": "nuxt-app",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "json-server": "json-server --watch db.json --port 3001",
+        "server": "npm run dev && npm run json-server",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "latest",
+        "@types/node": "^18.16.19",
+        "json-server": "^0.17.3",
+        "nuxt": "^3.6.3",
+        "nuxt-icon": "^0.4.2",
+        "prettier": "3.0.0"
+    },
+    "dependencies": {
+        "sass": "^1.63.6"
+    }
 }
