@@ -4,7 +4,25 @@
             "id": 1,
             "name": "Agostinha Carrara",
             "profilePicture": "https://s2-gshow.glbimg.com/19J9NXPOE9EvzcwcsxwUs_0uT4g=/0x0:1440x800/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2017/n/B/bEDK6CRByxaLqqPA3kog/20091021-a-grande-familia-ac-006-abre.jpg",
-            "lastMessage": "199,99",
+            "lastMessage": "199,99"
+        },
+        {
+            "id": 2,
+            "name": "Beiçola",
+            "profilePicture": "https://i.uai.com.br/Wz63orxVQSbNpUzi4b-3t-F-kSQ=/750x0/imgsapp2.uai.com.br/app/noticia_133890394703/2022/07/12/292244/marcos-oliveira-o-beicola-e-a-grande-familia-divulgacao_1_39979.jpg",
+            "lastMessage": "precisamos ver dos fiado, tem mais de 20 pastel"
+        },
+        {
+            "id": 3,
+            "name": "Lineu Silva",
+            "profilePicture": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/296298958_144914484838963_7217761843938914153_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_6p-m_oQcCAAX9nP3De&_nc_ht=scontent.fimp2-2.fna&oh=00_AfD12hQLBRVoOv662gRgEUoY0PQDPaQAPWJ0q0yHBdS0Jw&oe=64C2C846",
+            "lastMessage": ""
+        }
+    ],
+    "history": [
+        {
+            "id": 1,
+            "userId": 1,
             "messages": [
                 {
                     "id": 1,
@@ -19,25 +37,25 @@
                     "isMine": true
                 },
                 {
-                    "id": 1,
+                    "id": 3,
                     "message": "Calma, calma. Não precisa se exaltar.",
                     "date": "08:55",
                     "isMine": false
                 },
                 {
-                    "id": 1,
+                    "id": 4,
                     "message": "Eu faço um desconto especial para você.",
                     "date": "08:55",
                     "isMine": false
                 },
                 {
-                    "id": 2,
+                    "id": 5,
                     "message": "Quanto?",
                     "date": "08:55",
                     "isMine": true
                 },
                 {
-                    "id": 1,
+                    "id": 6,
                     "message": "199,99",
                     "date": "08:55",
                     "isMine": false
@@ -46,9 +64,7 @@
         },
         {
             "id": 2,
-            "name": "Beiçola",
-            "profilePicture": "https://s2-gshow.glbimg.com/19J9NXPOE9EvzcwcsxwUs_0uT4g=/0x0:1440x800/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2017/n/B/bEDK6CRByxaLqqPA3kog/20091021-a-grande-familia-ac-006-abre.jpg",
-            "lastMessage": "199,99",
+            "userId": 2,
             "messages": [
                 {
                     "id": 1,
@@ -60,9 +76,7 @@
         },
         {
             "id": 3,
-            "name": "Agostinha Carrara",
-            "profilePicture": "https://s2-gshow.glbimg.com/19J9NXPOE9EvzcwcsxwUs_0uT4g=/0x0:1440x800/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2017/n/B/bEDK6CRByxaLqqPA3kog/20091021-a-grande-familia-ac-006-abre.jpg",
-            "lastMessage": "199,99",
+            "userId": 3,
             "messages": []
         }
     ]
