@@ -64,7 +64,26 @@ yarn json-server
 
 ## Funcionalidades
 
-- Temas dark e light
-- Preview em tempo real
-- Modo tela cheia
-- Multiplataforma
+- Area inicial
+
+<img src="./assets/functions/StartPage.png" alt="Start Page" width="50%" height="50%"/>
+  
+- Area de login ( Necessário inserir um email valido )
+
+<img src="./assets/functions/LoginPage.png" alt="Start Page" width="50%" height="50%"/>
+  
+- Página de chats
+
+<img src="./assets/functions/HomePage.png" alt="Start Page" width="50%" height="50%"/>
+
+- Exemplo de chat
+
+<img src="./assets/functions/ChatComponent.png" alt="Start Page" width="50%" height="50%"/>
+  
+- Exemplo de troca de texto
+
+<img src="./assets/functions/ChatSendMessageComponent.png" alt="Start Page" width="50%" height="50%"/>
+
+- Exemplo de envio de texto concluído
+
+<img src="./assets/functions/ChatSendMessageComponentCompleted.png" alt="Start Page" width="50%" height="50%"/>
