@@ -2,7 +2,7 @@
     <div v-if="userSelected">
         <header class="contactInfos">
             <img
-                :src="userSelected?.image"
+                :src="userSelected?.profilePicture"
                 alt="User Image"
                 lazy
                 class="image"
@@ -23,7 +23,7 @@
         </footer>
     </div>
 
-    <div v-else>Selecione um usuário</div>
+    <div v-else class="selectUserBox"></div>
 </template>
 
 <script>
@@ -122,5 +122,13 @@ export default {
         background: #2e8e5f;
         transition: 0.3s ease-in-out;
     }
+}
+
+.selectUserBox {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../public/slashes.png');
 }
 </style>
