@@ -3,11 +3,11 @@
         @click="handleItemClick"
         :class="['itemBox', { selectedItem: isSelected }]"
     >
-        <img :src="user.image" :alt="user.name" lazy class="image" />
+        <img :src="user?.profilePicture" :alt="user?.name" lazy class="image" />
 
         <div class="itemInfos">
-            <strong class="itemName">{{ user.name }}</strong>
-            <storng class="itemLastMessage">{{ user.lastMessage }}</storng>
+            <strong class="itemName">{{ user?.name }}</strong>
+            <storng class="itemLastMessage">{{ user?.lastMessage }}</storng>
         </div>
     </div>
 </template>
