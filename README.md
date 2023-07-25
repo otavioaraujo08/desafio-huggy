@@ -12,6 +12,16 @@
 - Envio de uma nova mensagem; ✔️
 - Funcional em diversos layouts ✔️
 
+
+## Clonando o projeto
+
+Clonando o projeto
+
+```bash
+# git
+git clone https://github.com/otavioaraujo08/desafio-huggy.git
+```
+
 ## Instalação
 
 1. Passo - Instale desafio-huggy com o instalador de pacotes de sua preferência
