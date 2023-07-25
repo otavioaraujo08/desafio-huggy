@@ -54,7 +54,7 @@ yarn dev
 
 ## Rodando o NoSQL (*Importante*)
 
-3. Passo - Para ver informações de chat e enviar mensagens, execute o comando abaixo
+3. Passo - Para ver informações de chat e enviar mensagens, execute o comando abaixo em outro terminal
 
 ```bash
 # npm
